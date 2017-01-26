@@ -23,7 +23,7 @@ social:
 
 # Build settings
 include: []
-exclude: ["_screenshots", "Gemfile", "Gemfile.lock"]
+exclude: ["_screenshots", "Gemfile", "Gemfile.lock", _"drafts"]
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 
