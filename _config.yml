@@ -1,0 +1,35 @@
+# Site settings
+email: jk@devicezero.de
+baseurl: ""
+paginate: 5
+paginate_path: "/blog/page-:num"
+google_analytics:
+
+# SEO settings
+title: hello world, this is jonas
+description: a part of the internet where jonas is writing down his thoughts
+url: "http://www.devicezero.de"
+twitter_username: jonaskroeger
+default_img:
+
+# Profile settings
+name: Jonas Kröger
+profile_img: /assets/media/profile.jpg
+profile: Jonas is a technical product manager. He translates between developers and humans. Born in Germany he now likes to travel the world. His goal is to collect memories and meet new people instead of owning things.
+social:
+  instagram: https://www.instagram.com/devicezero/
+  twitter: https://twitter.com/jonaskroeger
+
+
+# Build settings
+include: []
+exclude: ["_screenshots", "Gemfile", "Gemfile.lock"]
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Sass
+sass:
+  style: compressed
+
+# Gems
+gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
