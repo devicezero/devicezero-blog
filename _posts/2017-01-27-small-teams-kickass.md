@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "why small teams kick ass"
+title: "Why small teams kick ass"
 date: 2017-01-26
 categories:
-description:
+description: "Sometimes less is more: When you want to move fast forward, go small."
 image: /assets/media/lego-ninja-turtles.jpg
 image-sm: /assets/media/lego-ninja-turtles-sm.jpg
 ---
