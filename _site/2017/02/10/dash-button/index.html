@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A virtual dash button for your office | hello world, this is jonas</title>
+  <meta name="author" content="Jonas Kröger">
+  <meta name="description" content="a part of the internet where jonas is writing down his thoughts">
+  <meta property="og:title" content="A virtual dash button for your office | hello world, this is jonas">
+  <meta property="og:url" content="http://www.devicezero.de/2017/02/10/dash-button/">
+  <meta property="og:site_name" content="hello world, this is jonas">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="/assets/media/coffee-supply.jpg">
+  <meta property="og:type" content="blog">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:title" content="A virtual dash button for your office | hello world, this is jonas">
+  <meta name="twitter:url" content="http://www.devicezero.de/2017/02/10/dash-button/">
+  <meta name="twitter:site" content="hello world, this is jonas">
+  <meta name="twitter:creator" content="@jonaskroeger">
+  <meta name="twitter:domain" content="http://www.devicezero.de">
+  <meta property="twitter:image" content="/assets/media/coffee-supply.jpg">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata|Lora|Space+Mono:700">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <link rel="alternate" type="application/rss+xml" title="hello world, this is jonas" href="http://www.devicezero.de/feed.xml">
+  <link rel="canonical" href="http://www.devicezero.de/2017/02/10/dash-button/">
+
+  
+</head>
+
+
+  <body>
+
+    <main>
+      <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="section-padding--lg mast">
+    <a class="nav nav--white" href="/">
+      <i class="fa fa-lg fa-arrow-left"></i>
+      <span>Back to Posts</span>
+    </a>
+    <figure class="absolute-bg mast__img" style="background-image: url('/assets/media/coffee-supply.jpg');"></figure>
+    <div class="mast__container">
+      <span><time datetime="2017-02-10T00:00:00+01:00" itemprop="datePublished">Feb 10, 2017</time></span>
+      <h1 itemprop="name headline">A virtual dash button for your office</h1>
+      
+      <span></span>
+    </div>
+  </header>
+
+  <section class="section-padding post" itemprop="articleBody">
+    <p>What is the worst thing that can happen in an office? No coffee!!</p>
+
+<p><small>Disclaimer: I am not a professional developer and do things like this in my free time to play around with code. I do not intend to aim for perfection but want to learn something. That helps me to make better decisions in my job as product manger, understand developers much better and for the most time is just fun to do.</small></p>
+
+<p>I read a post in our internal platform from a colleague. She wanted us to make sure our regular supplies are always in-stock (e.g. coffee or fruits). Like many of us she works from home ever now and then and needs to be informed  if something is running low. So I thought I should build something for that.</p>
+
+<p>The idea is simple: Place an old tablet in the kitchen and show some buttons where you can tap any supply if it is running low or empty. If that is the case, drop her an email and send a message to our Slack.</p>
+
+<p><img src="/assets/media/coffee-supply-animation.gif" alt="gif animation of the result" /></p>
+
+<h2 id="api">API</h2>
+<p>The core of the backend is an API. Simply make a GET-Request to get the current status. E.g. something like this</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>  [
+    {
+      "id": "4e2a162865d9f466cc37ebe7bc001f7e",
+      "value": {
+        "name": "the last unicorn",
+        "icon": "🦄",
+        "status": "NOTMUCH",
+        "lastUpdated": "2017-02-04 20:16:10"
+      }
+    },
+    {
+      "id": "4e2a162865d9f466cc37ebe7bc0023b5",
+      "value": {
+        "name": "coffee",
+        "icon": "☕️",
+        "status": "OK",
+        "lastUpdated": "2017-02-04 20:31:28"
+      }
+    }
+  ]
+</code></pre>
+</div>
+
+<p>The module also has corresponding options to PUT, POST and DELTE an element and make sure data is current.
+My API is written in Node.js using the <a href="https://hapijs.com/">hapi framework</a> and packed into a simple docker container.</p>
+
+<p>But wait, I said earlier that this should be a distributed solution. So we have to make sure the tablet in the kitchen is always up to date, even if the data is updated elsewhere. Good thing <a href="http://socket.io/">socket.io</a> came to the rescue! Everytime changes are made to the supplies, an event is send to all connected clients to make them update their data. So no hard refresh needed.</p>
+
+<h2 id="frontend">Frontend</h2>
+<p>To make it very easy and fast I just used the latest <a href="https://getbootstrap.com/">Bootstrap</a> version (Alpha 4) and their grid options / media queries to not spend too much time on that part.</p>
+
+<p>The most fun came with Vue.js. I built a component that sends requests to the API (using Axios, as <a href="https://medium.com/the-vue-point/retiring-vue-resource-871a82880af4#.xkx3j9d6y">recommended</a>) and displays them using another component for the tiles. I really like the approach of capsulated components very much. I also found that Vue.js is not that hard to begin with (at least for such easy tasks). I started with their <a href="https://vuejs.org/v2/guide/">guide</a> and also watched some screencasts on <a href="https://laracasts.com/series/learn-vue-2-step-by-step">laracasts</a>.</p>
+
+<p>The design is very basic tough. Instead of adding an icon font or custom SVGs, I went for UTF-8 Icons. Simple, but beautiful.</p>
+
+<p>And yeah, not to forget to include the socket.io client to make sure the data is updated whenever there is an update on the server.</p>
+
+<p>There is also an admin page, that options for adding a new entry or deleting an old one. The same components for displaying the supply tiles is used as on the index page.</p>
+
+<h2 id="notifications">Notifications</h2>
+<p>Notifications are handled quite simply. Again I set up two docker containers, one for my mailservice and one for slack notifications. Mails are handled via <a href="https://nodemailer.com/">Nodemailer</a>, for Slack Messages I made use of <a href="https://www.npmjs.com/package/slack-notify">slack-notify</a></p>
+
+<h2 id="database">Database</h2>
+<p>As I needed some place to persist the data, I went for a CouchDB instance in a docker container. This might be a bit oversized and you could also use smaller solutions or a free SaaS product. But CouchDB is super easy to set up, does not need much resources and was the fastest and easiest way for me. The API has a decoupled module for communication with the database (currently using <a href="https://github.com/dscape/nano">nano</a>), but that can easily be changed to anything else in the future.</p>
+
+<h2 id="webserver">Webserver</h2>
+<p>Not much to say here. NGINX runs in a docker container with access to the frontend files. It delivers them on the root path and proxies all request to <code class="highlighter-rouge">/api/</code> to the API-container.</p>
+
+<h2 id="further-improvements">Further improvements</h2>
+<p>The setting is simple and for sure not optimal. Things I definitely want to do soon are</p>
+
+<ul>
+  <li>Use <a href="https://webpack.github.io/">webpack</a> to enhance frontend performance</li>
+  <li>Use something like <a href="https://www.rabbitmq.com/">RabbitMQ</a> for communication between my modules. For now they all communicate with HTTP-Requests directly to each other, which is not a really nice if you want them to be as decoupled as you can get ;)</li>
+  <li>An old iPad 2 is set up, currently looking for a stand or case to place it on the wall.</li>
+</ul>
+
+<p><small> photo credits: <a href="https://www.flickr.com/photos/khelvan/5516602973/">by Brian Bilek</a> </small></p>
+
+  </section>
+
+  <section class="profile">
+    <div class="profile__card">
+      <div class="profile__img">
+        <figure class="absolute-bg" style="background-image: url('/assets/media/profile.jpg');"></figure>
+      </div>
+      <div class="profile__container">
+        <p>Jonas is a technical product manager. He translates between developers and humans. Born in Germany he now likes to travel the world. His goal is to collect memories and meet new people instead of owning things.</p>
+        
+          <ul class="profile__social">
+            
+              <li><a class="fa fa-lg fa-envelope-o" href="mailto:jk@devicezero.de"></a></li>
+            
+            
+              <li><a class="fa fa-lg fa-instagram" href="https://www.instagram.com/devicezero/" target="_blank"></a></li>
+            
+              <li><a class="fa fa-lg fa-twitter" href="https://twitter.com/jonaskroeger" target="_blank"></a></li>
+            
+          </ul>
+        
+      </div>
+    </div>
+  </section>
+
+</article>
+
+
+  <section class="next">
+    <a class="next__link" href="/2017/02/01/bali/" style="background-image: url('/assets/media/caution-monkeys.jpg');">
+      <div class="next__container">
+        <span>Read Next</span>
+        <h2>Bali 2017</h2>
+      </div>
+    </a>
+  </section>
+
+
+    </main>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script type="text/javascript" src="/assets/js/app.js"></script>
+
+
+  </body>
+
+</html>
