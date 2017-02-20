@@ -1,9 +1,9 @@
 # Site settings
 email: jk@devicezero.de
 baseurl: ""
-paginate: 5
+paginate: 3
 paginate_path: "/blog/page-:num"
-google_analytics:
+google_analytics: "UA-11722448-1"
 
 # SEO settings
 title: hello world, this is jonas
