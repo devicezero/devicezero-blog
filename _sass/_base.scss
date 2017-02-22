@@ -140,7 +140,14 @@ article ul {
 }
 
 .about {
-  padding: 4em 8em;
+
+  @media (min-width: $mq-xs) {
+    padding: 1em 1em;
+  }
+
+  @media (min-width: $mq-xl) {
+    padding: 4em 8em;
+  }
 }
 
 
