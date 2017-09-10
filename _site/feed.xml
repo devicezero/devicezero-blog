@@ -3,10 +3,10 @@
   <channel>
     <title>hello world, this is jonas</title>
     <description>a part of the internet where jonas is writing down his thoughts</description>
-    <link>http://www.devicezero.de/</link>
-    <atom:link href="http://www.devicezero.de/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Jul 2017 13:20:24 +0200</pubDate>
-    <lastBuildDate>Mon, 10 Jul 2017 13:20:24 +0200</lastBuildDate>
+    <link>http://blog.devicezero.de/</link>
+    <atom:link href="http://blog.devicezero.de/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 10 Sep 2017 16:04:46 +0200</pubDate>
+    <lastBuildDate>Sun, 10 Sep 2017 16:04:46 +0200</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -66,8 +66,8 @@
 
 </description>
         <pubDate>Sun, 09 Jul 2017 00:00:00 +0200</pubDate>
-        <link>http://www.devicezero.de/2017/07/09/portugal-roadtrip/</link>
-        <guid isPermaLink="true">http://www.devicezero.de/2017/07/09/portugal-roadtrip/</guid>
+        <link>http://blog.devicezero.de/2017/07/09/portugal-roadtrip/</link>
+        <guid isPermaLink="true">http://blog.devicezero.de/2017/07/09/portugal-roadtrip/</guid>
         
         
       </item>
@@ -156,8 +156,8 @@ Khourshid): David used CSS-Variables with JavaScript to build remarkable interac
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 09 May 2017 00:00:00 +0200</pubDate>
-        <link>http://www.devicezero.de/2017/05/09/cssconfeu-and-jsconfeu-2017/</link>
-        <guid isPermaLink="true">http://www.devicezero.de/2017/05/09/cssconfeu-and-jsconfeu-2017/</guid>
+        <link>http://blog.devicezero.de/2017/05/09/cssconfeu-and-jsconfeu-2017/</link>
+        <guid isPermaLink="true">http://blog.devicezero.de/2017/05/09/cssconfeu-and-jsconfeu-2017/</guid>
         
         
       </item>
@@ -199,8 +199,8 @@ Khourshid): David used CSS-Variables with JavaScript to build remarkable interac
 
 </description>
         <pubDate>Sun, 12 Mar 2017 00:00:00 +0100</pubDate>
-        <link>http://www.devicezero.de/2017/03/12/Sydney/</link>
-        <guid isPermaLink="true">http://www.devicezero.de/2017/03/12/Sydney/</guid>
+        <link>http://blog.devicezero.de/2017/03/12/Sydney/</link>
+        <guid isPermaLink="true">http://blog.devicezero.de/2017/03/12/Sydney/</guid>
         
         
       </item>
@@ -231,8 +231,8 @@ Khourshid): David used CSS-Variables with JavaScript to build remarkable interac
 &lt;p&gt;&lt;small&gt; photo credits: &lt;a href=&quot;https://www.flickr.com/photos/56218409@N03/15371262455/&quot;&gt;by Matthias Ripp&lt;/a&gt; &lt;/small&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 19 Feb 2017 00:00:00 +0100</pubDate>
-        <link>http://www.devicezero.de/2017/02/19/understand-your-clients/</link>
-        <guid isPermaLink="true">http://www.devicezero.de/2017/02/19/understand-your-clients/</guid>
+        <link>http://blog.devicezero.de/2017/02/19/understand-your-clients/</link>
+        <guid isPermaLink="true">http://blog.devicezero.de/2017/02/19/understand-your-clients/</guid>
         
         
       </item>
@@ -312,8 +312,8 @@ My API is written in Node.js using the &lt;a href=&quot;https://hapijs.com/&quot
 &lt;p&gt;&lt;small&gt; photo credits: &lt;a href=&quot;https://www.flickr.com/photos/khelvan/5516602973/&quot;&gt;by Brian Bilek&lt;/a&gt; &lt;/small&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 10 Feb 2017 00:00:00 +0100</pubDate>
-        <link>http://www.devicezero.de/2017/02/10/dash-button/</link>
-        <guid isPermaLink="true">http://www.devicezero.de/2017/02/10/dash-button/</guid>
+        <link>http://blog.devicezero.de/2017/02/10/dash-button/</link>
+        <guid isPermaLink="true">http://blog.devicezero.de/2017/02/10/dash-button/</guid>
         
         
       </item>
@@ -398,8 +398,8 @@ My API is written in Node.js using the &lt;a href=&quot;https://hapijs.com/&quot
 &lt;p&gt;A short notice on electricity: I experienced short power outage a few times, but it came back after a few minutes. Just make sure your devices are charged ;-) In Hubud, even when the lights went out, the internet worked. No big deal.&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Feb 2017 00:00:00 +0100</pubDate>
-        <link>http://www.devicezero.de/2017/02/01/bali/</link>
-        <guid isPermaLink="true">http://www.devicezero.de/2017/02/01/bali/</guid>
+        <link>http://blog.devicezero.de/2017/02/01/bali/</link>
+        <guid isPermaLink="true">http://blog.devicezero.de/2017/02/01/bali/</guid>
         
         
       </item>
@@ -452,8 +452,8 @@ My API is written in Node.js using the &lt;a href=&quot;https://hapijs.com/&quot
 &lt;p&gt;&lt;small&gt; photo credits: &lt;a href=&quot;https://www.flickr.com/photos/clement127/11671477445/&quot;&gt;by clement127&lt;/a&gt; &lt;/small&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 26 Jan 2017 00:00:00 +0100</pubDate>
-        <link>http://www.devicezero.de/2017/01/26/small-teams-kickass/</link>
-        <guid isPermaLink="true">http://www.devicezero.de/2017/01/26/small-teams-kickass/</guid>
+        <link>http://blog.devicezero.de/2017/01/26/small-teams-kickass/</link>
+        <guid isPermaLink="true">http://blog.devicezero.de/2017/01/26/small-teams-kickass/</guid>
         
         
       </item>
