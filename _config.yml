@@ -23,7 +23,7 @@ social:
 
 # Build settings
 include: []
-exclude: ["_screenshots", "Gemfile", "Gemfile.lock", _"drafts"]
+exclude: ["_screenshots", "Gemfile", "Gemfile.lock", _"drafts", "vendor", "docker-compose.yml"]
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 
