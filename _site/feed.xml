@@ -5,9 +5,60 @@
     <description>a part of the internet where jonas is writing down his thoughts</description>
     <link>http://blog.devicezero.de/</link>
     <atom:link href="http://blog.devicezero.de/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 04 Apr 2018 10:33:04 -0500</pubDate>
-    <lastBuildDate>Wed, 04 Apr 2018 10:33:04 -0500</lastBuildDate>
+    <pubDate>Tue, 10 Apr 2018 04:41:30 -0500</pubDate>
+    <lastBuildDate>Tue, 10 Apr 2018 04:41:30 -0500</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>My Remote Software Toolkit</title>
+        <description>&lt;p&gt;The Tools I use for managing my work remotely.&lt;/p&gt;
+
+&lt;h2 id=&quot;communication&quot;&gt;Communication&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://slack.com/&quot;&gt;Slack&lt;/a&gt; / &lt;a href=&quot;https://hangouts.google.com/&quot;&gt;Google Hangouts&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I use Slack to communicate (synchronously or asynchronously) with clients and other team members. Thanks to it’s integration of audio and video calls as well as screen sharing capabilities it is a great tool. If some enterprise firewalls won’t let me, Google Hangouts is my fallback for calls.&lt;/p&gt;
+
+&lt;h2 id=&quot;file-storage&quot;&gt;File Storage&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;httsp://www.dropbox.com/&quot;&gt;Dropbox&lt;/a&gt; / &lt;a href=&quot;https://www.google.com/intl/en/docs/about/&quot;&gt;Google Docs&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For storing files and being able to share them I use Dropbox a lot. That makes it easy to have a backup of all my personal and professionell data independent from any physical device. Google Docs is simply the best tool for collaborating on documents, so this comes in handy as well.&lt;/p&gt;
+
+&lt;h2 id=&quot;receipts&quot;&gt;Receipts&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://scanbot.io/en/index.html&quot;&gt;Scanbot&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;As you do not want to discuss with german tax authorities about any missing receipts, I scan them with my phone and the Scanbot App as quickly as possible (as I loose paper documents all the time but can store them perfectly digitally). After scanning they are automatically uploaded into my Dropbox (Scanbot can integrate with many more services). The app has integrated OCR support which is super nice for full text searches.&lt;/p&gt;
+
+&lt;h2 id=&quot;versioning&quot;&gt;Versioning&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://gitlab.com/&quot;&gt;GitLab&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;All my code is stored in different GitLab installations (some clients have their own on-premise, otherwise I use their hosted service as I do not want to handle with the server administration). With issues and merge requests it is nice to work together with others. I use their CI Pipelines for automatic testing, building docker images, deployments and more.&lt;/p&gt;
+
+&lt;h2 id=&quot;voip&quot;&gt;VoIP&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.sipgate.de/&quot;&gt;Sipgate&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For the rare occasions where I need the “good old phone”, I have a VoIP number from Sipgate. For 10€/month I get a flatrate for calling German numbers and I could always add international packages if needed. Their mailbox is pretty impressive, as you get not only the audio-file via mail, but also a transcript via text.&lt;/p&gt;
+
+&lt;h2 id=&quot;timezones&quot;&gt;Timezones&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/clocker-menubar-world-clock/id1056643111?mt=12&quot;&gt;Clocker&lt;/a&gt; / &lt;a href=&quot;https://there.pm/&quot;&gt;There&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;To stay on top of all the timezones people are in, I like to have their current date and time at hand. For a long while I used Clocker to have a second clock on my Mac. I recently switched to try out There as it is promising to update timezones of other users automatically. But I miss to have a second clock to see other timezones without an additional click. We will see which tool will make it in the end. On my iPhone I use &lt;a href=&quot;https://itunes.apple.com/us/app/klok-time-zone-converter/id965118917?mt=8&quot;&gt;Klok&lt;/a&gt; (we will see if There will make it’s way to that, too).&lt;/p&gt;
+
+&lt;h2 id=&quot;accounting&quot;&gt;Accounting&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.fastbill.com/&quot;&gt;Fastbill&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Fastbill is my tool of choice to handle time tracking, quotations and invoicing. My process a one-man company is not that complex and while it is not the best one, it gets the job done for a cheap price and has all the information my accountant needs without big effort. I am missing a few KPIs, but with their API and some Javascript-Code I am able to pull them out of their system whenever I need them.&lt;/p&gt;
+
+&lt;h2 id=&quot;asynchronous-stand-ups&quot;&gt;Asynchronous stand ups&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.stehauf.io/&quot;&gt;stehauf.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;To manage information of my progress and what other team members are doing I use my own Slackbot (yes, this is bias and self-promotion here, but hey… it’s my blog!). It is good to stay on the same page and more often than not it had helped me and the people to achieve that without having another meeting.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 10 Apr 2018 00:00:00 -0500</pubDate>
+        <link>http://blog.devicezero.de/2018/04/10/Remote-Software/</link>
+        <guid isPermaLink="true">http://blog.devicezero.de/2018/04/10/Remote-Software/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Jonas&#39; core values</title>
@@ -469,60 +520,6 @@ My API is written in Node.js using the &lt;a href=&quot;https://hapijs.com/&quot
         <pubDate>Wed, 01 Feb 2017 00:00:00 -0600</pubDate>
         <link>http://blog.devicezero.de/2017/02/01/bali/</link>
         <guid isPermaLink="true">http://blog.devicezero.de/2017/02/01/bali/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Why small teams kick ass</title>
-        <description>&lt;p&gt;Sometimes less is more: When you want to move fast forward, go small.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-is-a-small-team&quot;&gt;What is a small team?&lt;/h2&gt;
-&lt;p&gt;In this case the term “small team” reflects on:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The team size: number of team members&lt;/li&gt;
-  &lt;li&gt;An independent culture: the team is responsible for itself and it’s tasks&lt;/li&gt;
-  &lt;li&gt;Consistency: team members stay the same over a certain time&lt;/li&gt;
-  &lt;li&gt;Small team size does not equal small companies, even big companies can organize in small, independent teams to kick ass!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;processes&quot;&gt;Processes&lt;/h2&gt;
-&lt;p&gt;When humans work together there is no such thing as “the one truth”. The idea of one process that fit’s all companies might sound worth achieving but in reality it isn’t. SCRUM isn’t for everybody and so aren’t Kanban or Extreme Programming. And that is why those methods sometimes fail and sometimes work just fine.&lt;/p&gt;
-
-&lt;p&gt;Working together means you have to find some ways of organizing work. But if every process works doesn’t every team - how can you find the “perfect” process? Well, you doesn’t have to! There doesn’t have to be a finish line on your improvement as a team. For example: Some scenarios demand to prioritize speed, in others you need to focus on quality. Usually those priorities will change during the lifecycle of your product / project. You want to be able to adjust quickly to outside and inside circumstances. For that an open culture to allow failures and dispel fear of trying new things is very important.&lt;/p&gt;
-
-&lt;p&gt;With fewer team members you can try out new processes. Always identify weaknesses and strengths in your workflow to draw conclusions much faster. You simply get everybody on board in one call, not wait for every 50 people to have them read that memo.&lt;/p&gt;
-
-&lt;h3 id=&quot;bonus-tools-tools-tools&quot;&gt;Bonus: tools. tools. tools&lt;/h3&gt;
-&lt;p&gt;If there is no “one size fits all” in processes – there can’t be one tool that fits every use case. Small independent teams can be more flexible in choosing the tools every individual needs to deliver good work. If you have ever been in touch with a IT-Department of a traditional company you know that flexibility is usually not their core strength.&lt;/p&gt;
-
-&lt;h2 id=&quot;communication&quot;&gt;Communication&lt;/h2&gt;
-&lt;p&gt;As technology is evolving extremely fast these days and so many things are possible. It’s just not easy to get everybody on the same page and to actually talk about the same ideas. Communication is key - whether it’s spoken or written. Even when using the same words, you might not talk about the same ideas. So e.g. you might use mockups, images, descriptions, etc. to standardize requirements. In the end everybody on the team has to build her/his part that needs to fit together. The better your communication the easier this gets.&lt;/p&gt;
-
-&lt;p&gt;After a while you usually know each other and how your colleagues communicate. You better know what they want, when to ask them to specify something or you even know when to ask for their opinion. Make sure your team is diverse and consists of different people and opinions. Combining those views together and create great pieces of technology means you have to have a good culture of communication.&lt;/p&gt;
-
-&lt;p&gt;Working in smaller teams makes it much easier to adjust to others behavior and be more sensitive about others to move forward, together.&lt;/p&gt;
-
-&lt;h2 id=&quot;predictability&quot;&gt;Predictability&lt;/h2&gt;
-&lt;p&gt;If we have learned something in the last years it’s that requirements change - especially when working with clients. The industry tries to embrace constant changes (e.g. agile movement, the devops idea, and more). And this is great! But you still need some kind of commitment.&lt;/p&gt;
-
-&lt;p&gt;Everybody has it’s own pace and mindset on how to tackle work. A good culture reflects that and gives everybody the chance to improve but not overstrain too much. “How much can we get done this week?” is only one part of the topic, but a very obvious one. If you work with other teams that rely on your output or you simply need to document to superiors, this is a very common “KPI”. When it comes to predictability within your team it is also quite interesting to agree on “How small do tasks need to be before we can get to work?”. Some people only need a rough idea, some others might need more details and smaller sub-tasks to be able to go concept from execution.&lt;/p&gt;
-
-&lt;p&gt;Whether you estimate in days, in points or other labels – and especially when you don’t estimate at all: At some point (mostly) you need to know what a team is capable of - which is simply much easier to measure and adjust when you have 4 people than 15.&lt;/p&gt;
-
-&lt;h2 id=&quot;overhead&quot;&gt;Overhead&lt;/h2&gt;
-&lt;p&gt;Having a hierarchy or a flat organization doesn’t matter. At a certain point of team size, you have some kind of overhead. Overhead is that kind of activity that you need to keep the organization alive. Of course you want to minimize that.&lt;/p&gt;
-
-&lt;p&gt;The more people there are, the more needs to be organized, the more needs to be strictly structured. Bigger organizations compulsorily need to think more as a collective than to consider the individual human being. That doesn’t mean that such an organization is automatically cruel. But big teams demand more handovers of information, higher need for organizing daily business and e.g. in result more meetings.&lt;/p&gt;
-
-&lt;p&gt;Small teams make it easier to share knowledge, fewer need for a strict structure (“it just works”) and in result getting more work done!&lt;/p&gt;
-
-&lt;p&gt;&lt;small&gt; photo credits: &lt;a href=&quot;https://www.flickr.com/photos/clement127/11671477445/&quot;&gt;by clement127&lt;/a&gt; &lt;/small&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 26 Jan 2017 00:00:00 -0600</pubDate>
-        <link>http://blog.devicezero.de/2017/01/26/small-teams-kickass/</link>
-        <guid isPermaLink="true">http://blog.devicezero.de/2017/01/26/small-teams-kickass/</guid>
         
         
       </item>
