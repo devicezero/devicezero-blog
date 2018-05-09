@@ -102,4 +102,14 @@ document.addEventListener("DOMContentLoaded", function() {
   Tabs.init();
   Preview.init();
   wow.init();
+
+  if (!localStorage.getItem('cookieconsent')) {
+    document.getElementById('cookieconsent').className = "";
+}
 });
+
+
+var setCookieconsent = function() {
+  localStorage.setItem('cookieconsent', true);
+  document.getElementById('cookieconsent').className = "hidden";
+}

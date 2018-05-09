@@ -10,3 +10,31 @@
   'animations',
   'helpers'
 ;
+
+
+#cookieconsent {
+  position: fixed;
+  bottom: 0;
+  background: white;
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+  border-top: 1px solid #ccc;
+  z-index: 9999999;
+}
+
+#cookieconsent small {
+  color: #ccc;
+}
+
+#cookieconsent a {
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  // color: white;
+  cursor: pointer;
+}
+
+#cookieconsent.hidden {
+  display: none;
+}
