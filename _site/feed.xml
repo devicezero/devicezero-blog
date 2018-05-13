@@ -5,9 +5,33 @@
     <description>a part of the internet where jonas is writing down his thoughts</description>
     <link>http://blog.devicezero.de/</link>
     <atom:link href="http://blog.devicezero.de/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 09 May 2018 14:39:30 -0500</pubDate>
-    <lastBuildDate>Wed, 09 May 2018 14:39:30 -0500</lastBuildDate>
+    <pubDate>Sun, 13 May 2018 06:34:24 -0500</pubDate>
+    <lastBuildDate>Sun, 13 May 2018 06:34:24 -0500</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>In April 2018 I…</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;traveled from Windhoek, Namibia to Nairobi, Kenya&lt;/li&gt;
+  &lt;li&gt;put &lt;a href=&quot;https://www.stehauf.io&quot;&gt;stehauf.io&lt;/a&gt; LIVE for a public beta &amp;lt;3&lt;/li&gt;
+  &lt;li&gt;was exicted about npm@6 and used &lt;a href=&quot;https://blog.npmjs.org/post/173719309445/npm-audit-identify-and-fix-insecure&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;npm audit&lt;/code&gt;&lt;/a&gt; in a few projects to eliminate security flaws&lt;/li&gt;
+  &lt;li&gt;visited the &lt;a href=&quot;http://kipepeo.yolasite.com/&quot;&gt;Kipepeo Community Empowerment Program&lt;/a&gt; near Kisumu, Kenya. What started just as a visit turned into spending a day with friends. It is amazing to see what Moses, Julius and Jethron are doing for the local community, from micro-loaning to building a school. It was was very special day to me and that kind of experience that I will never forget. I still have to figure out on how I can help on a long-term basis with them! From mirco-loans to bulding a school and feeding kids, they really help the local community.&lt;/li&gt;
+  &lt;li&gt;helped to plant coffee in Kenya and for my friends of &lt;a href=&quot;https://mehrwert-kaffee.de/&quot;&gt;mehrwert kaffee &lt;/a&gt; 🙃 Also made a few photos and videos on the way.&lt;/li&gt;
+  &lt;li&gt;ate kenyan local food like Ugali and local pancakes.&lt;/li&gt;
+  &lt;li&gt;met some animals (lion, cheetha, wild dogs, cheetah, monkeys, giraffes, …).&lt;/li&gt;
+  &lt;li&gt;wrote a test suite for JSON APIs.&lt;/li&gt;
+  &lt;li&gt;finished a TYPO3 CMS project.&lt;/li&gt;
+  &lt;li&gt;used an almost empty flight from Johannesburg to Nairobi to work.&lt;/li&gt;
+  &lt;li&gt;deployed another sprint result for the &lt;a href=&quot;https://wfm.data-room.de/en&quot;&gt;dataroom Workflowmanager&lt;/a&gt;. Always deliver 💪🏽.&lt;/li&gt;
+  &lt;li&gt;updated an internal project to use the latest &lt;a href=&quot;http://gitlab.com/&quot;&gt;GitLab&lt;/a&gt; APIs.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 01 May 2018 00:00:00 -0500</pubDate>
+        <link>http://blog.devicezero.de/2018/05/01/april/</link>
+        <guid isPermaLink="true">http://blog.devicezero.de/2018/05/01/april/</guid>
+        
+        
+      </item>
     
       <item>
         <title>My Remote Software Toolkit</title>
@@ -434,92 +458,6 @@ My API is written in Node.js using the &lt;a href=&quot;https://hapijs.com/&quot
         <pubDate>Fri, 10 Feb 2017 00:00:00 -0600</pubDate>
         <link>http://blog.devicezero.de/2017/02/10/dash-button/</link>
         <guid isPermaLink="true">http://blog.devicezero.de/2017/02/10/dash-button/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Bali 2017</title>
-        <description>&lt;p&gt;I stayed in Bali for four weeks. Good to mix relaxing with  work!&lt;/p&gt;
-
-&lt;h2 id=&quot;accommodation&quot;&gt;Accommodation&lt;/h2&gt;
-
-&lt;h3 id=&quot;villas&quot;&gt;Villas&lt;/h3&gt;
-&lt;p&gt;Both in Seminyak and Sanur we rented a villa. This gives you all the flexibility. Most houses in Bali come with a pool, nice to  to cool off in the heat, start your morning with a little swim or chill in the evening with some music. Check out Airbnb, there are usually many options.&lt;/p&gt;
-
-&lt;h3 id=&quot;guest-house&quot;&gt;Guest house&lt;/h3&gt;
-&lt;p&gt;In Ubud we also stayed at the &lt;a href=&quot;http://www.booking.com/hotel/id/bucu-guest-house.en-gb.html&quot;&gt;Bucu Guest House&lt;/a&gt;. They have a wonderful pool and nice rooms and a very reasonable price (usually 30k IPR per night per room with breakfast). As they had some construction going on the dropped the price to 25k IPR. If you are on a budget or on your way around exploring all day anyways: definitely recommended!&lt;/p&gt;
-
-&lt;h3 id=&quot;hotels&quot;&gt;Hotels&lt;/h3&gt;
-&lt;p&gt;Or course there are many hotels around. While it was quite nice to stay for a week at &lt;a href=&quot;http://greenfieldubud.com/&quot;&gt;Green Field Hotel&lt;/a&gt; with a ricefield view (and their complementary drivers to get around ubud!), I’d prefer Airbnb on the long term!&lt;/p&gt;
-
-&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-version=&quot;7&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:8px;&quot;&gt; &lt;div style=&quot; background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;&quot;&gt; &lt;div style=&quot; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;&lt;a href=&quot;https://www.instagram.com/p/BOkDJPCDTEa/&quot; style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&quot;&gt;Ein von Jonas (@devicezero) gepostetes Foto&lt;/a&gt; am &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2016-12-28T13:55:54+00:00&quot;&gt;28. Dez 2016 um 5:55 Uhr&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; defer=&quot;&quot; src=&quot;//platform.instagram.com/en_US/embeds.js&quot;&gt;&lt;/script&gt;
-
-&lt;h2 id=&quot;getting-around&quot;&gt;Getting around&lt;/h2&gt;
-&lt;p&gt;Taxi drivers have a very bad reputation. Sadly for a good cause. On the airport they are waiting in thousands (okay, maybe a hundred) to rip you off for a high price. Our first Airbnb host organized a driver that was waiting for us. This way you make sure you find the place and don’t have to fight with the drivers.&lt;/p&gt;
-
-&lt;p&gt;Uber and GoJek (Uber-like service) are available and in many times the cheapest option, but not much appreciated in the local community. Uber drivers did always call upfront to confirm the pickup spot. Try not to order an Uber in the main streets and let them pick you up right in front of your hotel or house.&lt;/p&gt;
-
-&lt;p&gt;The easiest option would be for you to rent a scooter. Two wheel drives are the bulk of the traffic anyways. They are usually cheap to get (50-75k IPR per day). You can ask your host to organize that for you or look for any of the shops on the streets. Cars get stuck in traffic quite often and I cannot imagine driving there by myself with all those scooters around the car. Don’t be afraid. I have neither driven a scooter before nor did i drive on the left side on the street. Worked out fine nevertheless. Practice a little bit on a smaller road with low traffic, avoid the really big streets and high traffic and you should be good.&lt;/p&gt;
-
-&lt;h2 id=&quot;things-to-do&quot;&gt;Things to do&lt;/h2&gt;
-
-&lt;p&gt;We hired a &lt;a href=&quot;http://www.driver-ubud.com/&quot;&gt;driver&lt;/a&gt; (about 700k IPR for the whole day) and made a tour around the island.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Taman Ayun Temple&lt;/li&gt;
-  &lt;li&gt;Jatiluwih rice terasses&lt;/li&gt;
-  &lt;li&gt;Tanah Lot&lt;/li&gt;
-  &lt;li&gt;Pura Tirta Empul Temple&lt;/li&gt;
-  &lt;li&gt;Taman Ayun Temple&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;You might also want to check out the Mt. Batur Volcano or the Nusa Penida Island, both with stunning nature to explore.&lt;/p&gt;
-
-&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-version=&quot;7&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:8px;&quot;&gt; &lt;div style=&quot; background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;&quot;&gt; &lt;div style=&quot; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;&lt;a href=&quot;https://www.instagram.com/p/BPPj_-cDECw/&quot; style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&quot;&gt;Ein von Jonas (@devicezero) gepostetes Foto&lt;/a&gt; am &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2017-01-14T11:30:20+00:00&quot;&gt;14. Jan 2017 um 3:30 Uhr&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; defer=&quot;&quot; src=&quot;//platform.instagram.com/en_US/embeds.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;In Ubud itself you can do some things by foot:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Ubud palace: The name suggest more than it is. I was a little bit underwhelmed.&lt;/li&gt;
-  &lt;li&gt;Monkey Forest: We didn’t go there by ourselves. It’s basically a forest full of monkey. People recommend to leave most of your belongings at home because the tend to steal stuff from you. Walking by the place it looked very full of tourists most of the time.&lt;/li&gt;
-  &lt;li&gt;Yoga: While I am not that much of a yogi, many come to Ubud for Yoga. There are many places to practice and attend courses. Most famous is the &lt;a href=&quot;http://www.theyogabarn.com/&quot;&gt;Yoga Barn&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Food: Ubud has many good options. I recommend to check ratings on Google Maps. Some of my favorites where &lt;a href=&quot;http://whoswhosworld.com/index.html&quot;&gt;Who’S Who&lt;/a&gt;, &lt;a href=&quot;https://www.facebook.com/buddhabowlubud/&quot;&gt;Budda Bowl&lt;/a&gt; and &lt;a href=&quot;https://www.facebook.com/ClearCafeUbud/&quot;&gt;Clear Cafe&lt;/a&gt;. Also try out some of the “Warung”-Places. Warung means “shop” in general, but most are some kind of cheap restaurants.&lt;/li&gt;
-  &lt;li&gt;Luwak coffee: It is very popular to make a stop on the way to Ubud and try the famous Luwak coffee. The locals call it cat-poo-ccino – for a reason ;)&lt;/li&gt;
-  &lt;li&gt;Campuhan Ridge Walk: Little (~2km) hike with some nice views on the nature. Start early or late, in the middle of the day the sun would be brutal. In the end you can refresh yourself at the Karsa Kafe (they even had decent wifi).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Seminyak was not really my taste. Too many tourist, very hectic. I guess if you want to party with some Australians or go shopping all day this is a great area. Nonetheless there were some great food options, tough more pricey than Ubud.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.mofokitchen.com/&quot;&gt;MOFO Kitchen&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.growbali.com/&quot;&gt;Grow&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.cornerhousebali.com/&quot;&gt;Corner House&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.facebook.com/gofresh.life/&quot;&gt;Gofresh.life&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Tip: I did not know that “trash season” is a thing in Bali (see &lt;a href=&quot;https://weather.com/travel/news/trash-season-arrives-bali-beach-photos-20140123&quot;&gt;here&lt;/a&gt;). If you come in the winter months, be prepared.&lt;/p&gt;
-
-&lt;p&gt;The last few days I spend in Sanur, which is closer to the beach. Those days were mainly to rest. Scooters are a necessity here to get around. Otherwise you will melt in the sun walking around. The beach is worth a visit, food options directly at the beach are more average. Check out &lt;a href=&quot;http://duskbluebali.com/&quot;&gt;Dusk Blue&lt;/a&gt; or &lt;a href=&quot;http://soulinabowlbali.com/&quot;&gt;Soul in a Bowl&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;work-work-work&quot;&gt;Work work work&lt;/h2&gt;
-
-&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-version=&quot;7&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:8px;&quot;&gt; &lt;div style=&quot; background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;&quot;&gt; &lt;div style=&quot; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;&lt;a href=&quot;https://www.instagram.com/p/BOn6piGjIZU/&quot; style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&quot;&gt;Ein von Jonas (@devicezero) gepostetes Foto&lt;/a&gt; am &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2016-12-30T01:58:38+00:00&quot;&gt;29. Dez 2016 um 17:58 Uhr&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; defer=&quot;&quot; src=&quot;//platform.instagram.com/en_US/embeds.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;At some point you might need to get some work done. Too bad internet is often extremely bad on the island.&lt;/p&gt;
-
-&lt;p&gt;Ubud for example had many options for cafes with great food and coffee. Almost every place offers free wifi at some point, but when it comes to speed they differ a lot. In most cafes I got a few Mbit down and often &amp;lt;1 Mbit up. While this is fine for some tasks it didn’t work out for video calls / screensharing. As sim cards can be bought everywhere and data is cheap (I paid 100k IRP for 8GB) this is definitely an option. I did a few calls on a tethered connection via my phone. I needed data for using maps or Uber on the go anyways and for the price it’s a no-brainer.&lt;/p&gt;
-
-&lt;p&gt;For most of my work I decided to go for one of the coworking spaces: &lt;a href=&quot;http://www.hubud.org/&quot;&gt;Hubud&lt;/a&gt;. They have different plans depending on your needs and how long you stay there. Working barefoot in a house mostly made out of bamboo was a nice experienced and brings you that feeling of relaxing while still working. Also good coffee, cake and free water to keep you hydrated. They do many events for their members.&lt;/p&gt;
-
-&lt;p&gt;A short notice on electricity: I experienced short power outage a few times, but it came back after a few minutes. Just make sure your devices are charged ;-) In Hubud, even when the lights went out, the internet worked. No big deal.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 01 Feb 2017 00:00:00 -0600</pubDate>
-        <link>http://blog.devicezero.de/2017/02/01/bali/</link>
-        <guid isPermaLink="true">http://blog.devicezero.de/2017/02/01/bali/</guid>
         
         
       </item>
