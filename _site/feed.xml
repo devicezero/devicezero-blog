@@ -5,8 +5,8 @@
     <description>a part of the internet where jonas is writing down his thoughts</description>
     <link>http://blog.devicezero.de/</link>
     <atom:link href="http://blog.devicezero.de/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 28 Jun 2018 12:24:52 -0500</pubDate>
-    <lastBuildDate>Thu, 28 Jun 2018 12:24:52 -0500</lastBuildDate>
+    <pubDate>Thu, 28 Jun 2018 14:17:19 -0500</pubDate>
+    <lastBuildDate>Thu, 28 Jun 2018 14:17:19 -0500</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -38,6 +38,12 @@
 &lt;ul&gt;
   &lt;li&gt;refactored the CI building process of stehauf.io to enable faster deployments&lt;/li&gt;
   &lt;li&gt;updated more projects to fix security issues via &lt;code class=&quot;highlighter-rouge&quot;&gt;npm audit&lt;/code&gt; (still love that feature)&lt;/li&gt;
+  &lt;li&gt;created a logo for myself, let me know what do you think via &lt;a href=&quot;https://twitter.com/jonaskroeger&quot;&gt;twitter&lt;/a&gt;!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://devicezero.de/assets/img/devicezero_logo.svg&quot; alt=&quot;logo&quot; title=&quot;logo devicezero&quot; style=&quot;width:200px !important; margin: 0 auto;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
   &lt;li&gt;delivered a bigger update for the &lt;a href=&quot;https://wfm.data-room.de/en&quot;&gt;Workflowmanager&lt;/a&gt;. We now have @-mentions like the cool web apps today do ;) We try to deliver new features every month or so (in addition to minor fixes, security updates, etc.), which is only possible with a great team and fast deployments, automated testing and more. &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#106;&amp;#107;&amp;#064;&amp;#100;&amp;#101;&amp;#118;&amp;#105;&amp;#099;&amp;#101;&amp;#122;&amp;#101;&amp;#114;&amp;#111;&amp;#046;&amp;#100;&amp;#101;&quot;&gt;Drop me an email&lt;/a&gt; if you are interested to speed up your development process.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
